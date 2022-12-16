@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&family=Montserrat:ital@1&display=swap');
+body{
+
+   
+    background-color: blanchedalmond;
+}
+h1{
+    color: blanchedalmond;
+    text-align: center;
+    border:gold 7px solid;
+    background-color:brown ;
+   
+    border-radius: 15px;
+}
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+nav{
+display: flex;
+justify-content: space-between;
+}
+
+nav a{
+    color: white;
+    background-color: deepskyblue;
+    text-decoration: none;
+    padding: 15px;
+    font-family: 'Kanit', sans-serif;
+    border:0;
+    border-radius: 15px;
+    box-shadow: 2px 2px 2px navy;
+}
+
+nav a:hover{
+    background-color: orangered;
+    box-shadow: 2px 2px 2px brown ;
+}
+
+#content{
+  border: blue solid 7px; 
+  
+    width:80%;margin-left: auto;margin-right: auto;
+    
+    border-radius: 15px;
+}
+img{
+    width:100%;
+}
+
+p{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color: darkred;
+}
